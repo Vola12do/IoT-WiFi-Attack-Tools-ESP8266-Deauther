@@ -8,7 +8,6 @@
 
 ---
 
-![Cover Image](https://ibb.co/Khq046f)
 
 
 ## Overview
