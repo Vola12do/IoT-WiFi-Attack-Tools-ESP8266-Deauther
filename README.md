@@ -1,10 +1,13 @@
+![Cover Image](src/Source/1.jpg)
+
+
 # IoT-WiFi-Attack-Tools-ESP8266-Deauther
 "A project leveraging ESP8266 for WiFi Deauth and Evil Twin attacks."
 
 # Building WiFi Attack Tools: A Beginner’s Guide
 
 **Author:** Vola12do  
-**Date Published:** 2 days ago   
+**Date Published:** 22-01-2024   
 
 ---
 
@@ -22,6 +25,7 @@ This project is intended for educational purposes only, demonstrating the founda
 
 To get started, you’ll need:
 - **NodeMCU or ESP8266**: A microcontroller that supports WiFi hacking, costing around ₹150 (~$2).
+![Node MCU.](src/Source/sou2.jpg)
 - **USB to Micro-USB Data Transfer Cable**: Ensure it supports data transfer, not just charging.
 - **Laptop or PC**: To set up and flash the firmware.
 
@@ -60,6 +64,7 @@ Create a fake WiFi network resembling a legitimate one. When victims connect to 
 1. Go to:
 - `Tools` -> `Board` -> `Boards Manager`.
 2. Search for `Deauther Package` and install it.
+   
 
 ### Step 4: Select the ESP8266 Deauther Board
 1. In Arduino IDE, go to:
@@ -86,8 +91,9 @@ Create a fake WiFi network resembling a legitimate one. When victims connect to 
 ## Using the NodeMCU for WiFi Attacks
 
 1. Power on the NodeMCU and connect to the access point (AP) named:
-- **SSID:** `WiPhi_34732`
+- **SSID:** `Vivo Prime 4G`
 - **Password:** `d347h320`
+ ![Fake AP](src/Source/Screenshot\%20(720).png)
 2. From your browser, visit `192.168.4.1/admin`.
 3. Select the target AP you want to attack:
 - Refresh the list every 30 seconds.
@@ -95,6 +101,7 @@ Create a fake WiFi network resembling a legitimate one. When victims connect to 
 - **Deauth Attack:** Disconnect devices from the target network.
 - **Evil Twin Attack:** Create a fake AP with the same SSID as the target.
 5. Stop the attack by resetting the NodeMCU or visiting the admin panel.
+![Interface](src/Source/Screenshot\%20(719).png)
 
 ---
 
@@ -102,7 +109,8 @@ Create a fake WiFi network resembling a legitimate one. When victims connect to 
 
 - **Customizable AP Name:** Modify the SSID for the fake network.
 - **Portability:** Run the device on any power source (laptop, power bank, charger).
-- **Compatibility:** Supports both 2.4 GHz and limited 5 GHz WiFi attacks (tested with BW16).
+  ![Android becoming deauther](src/Source/Medium3.jpg)
+- **Compatibility:** Supports only 2.4 Ghz, I am making One for 5Ghz using "BW16"
 
 ---
 
